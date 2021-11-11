@@ -40,6 +40,7 @@ namespace Consumer
 
         private static IModel CreateOrGetChannel()
         {
+           
             return connection.CreateModel();
         }
 
