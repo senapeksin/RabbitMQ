@@ -40,7 +40,7 @@ namespace Consumer
 
         private static IModel CreateOrGetChannel()
         {
-           
+            //Imodel tipinde bir interface dönüyor bu da bizim channel 'ımız oluyor.
             return connection.CreateModel();
         }
 
